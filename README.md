@@ -19,8 +19,7 @@ A single-screen Flutter mobile application designed to estimate daily and monthl
 ## Cost Calculation Logic
 The application processes energy usage using the standard kilowatt-hour formula:
 
-$$\text{Daily Cost} = \left(\frac{\text{Wattage (W)} \times \text{Daily Hours}}{1000}\right) \times \text{Electricity Rate (\$/kWh)}$$
-
+$$\text{Daily Cost} = \left( \frac{\text{Wattage (W)} \times \text{Daily Hours}}{1000} \right) \times \text{Rate}$$
 $$\text{Monthly Cost} = \text{Daily Cost} \times 30$$
 
 ---
